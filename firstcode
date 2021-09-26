@@ -1,0 +1,882 @@
+# # # my first line frrom  GFG
+
+# # # script Beginds
+
+
+# # print("GeeksQuiz")
+
+
+# # # Scripts Ends 
+
+# # print("Hello, World!")
+
+# # # python program to illustrate
+# # # def getInteger():
+# # #  result = int(input("Enter integer: "))
+# #  #   return result
+    
+# # def main():
+# #   print("Started")
+# # # calling the getInteger function and 
+# # # storing its returned value in the output variable
+# # #    output = getInteger()
+# #  #   print(output)
+    
+# # #if_name_=="_main_":
+# # # main()
+
+
+# # def hello():
+# #  print("hello")
+# #  print("hello again")
+# # hello()
+
+# # hello()
+
+
+# # for step in range(5):
+# #  print(step)
+
+
+# # print(9//2)
+
+
+# # # initializing integers
+# # a = 1
+# # b = 2
+
+# # # initializing tuple
+# # tup = (('a', 1) ,('f', 2), ('g', 3))
+
+# # # printing integer converting to complex number
+# # c = complex(1,2)
+# # print ("After converting integer to complex number : ",end="")
+# # print (c)
+
+
+# # count = 0
+# # while (count < 3):
+# #    count = count + 1
+# #    print("hello peter")
+   
+   
+# #    n = 4
+# #    for i in range(0,n):
+# #     print(i)
+    
+# # print("List Iteration")
+# # L = ["peter", "klever","mackli"]
+# # for i in L:
+# #  print(i)
+ 
+# # print("\nTuple Iteration")
+# # t = ("peter", "klever","macki")
+# # for i in t:
+# #    print(i)
+   
+# # print("\nString Iteration")    
+# # s = "peter"
+# # for i in s :
+# #     print(i)
+     
+# # # Iterating over dictionary
+# # print("\nDictionary Iteration")   
+# # d = dict() 
+# # d['xyz'] = 123
+# # d['abc'] = 345
+# # for i in d :
+# #     print("%s  %d" %(i, d[i]))
+    
+    
+# #     List = ["peter", "mac", "klever"]
+# #     for index in range(len(List)):
+# #      print(List[index])
+
+
+
+
+# # from__future__ import print_function
+# # for i in range(1, 5):
+# #    for j in range(i):
+# #         print(i, end=' ')
+# #         print()
+
+
+# # MD = 3*4+5
+# # print(MD)
+
+# print("5 is my favourite number")
+
+# # n = 5
+# # i = 10**2
+# # h = 10
+# # print(n+i+h)
+
+# # whille loops starts here
+# # x = 50
+
+# # while x < 5:
+# #     print(f'The current value of x is {x}')
+# #     # x = x + 1
+# #     x += 1
+# # else:
+# #     print ("X IS NOT LESS THAN 5")
+
+# # # LOOP Break continue and pass
+
+# # x = [1,2,3]
+
+# # for item in x:
+# #     # comment
+# #     pass
+
+
+# # print('end of my script')
+
+# # mystring0 = 'jimmy'
+
+# # for letter in mystring0:
+# #    if letter == 'i':
+# #        continue
+# #     print("letter")
+
+
+# # x = 0 
+ 
+# # while x < 5:
+
+# #      if x == '2':
+# #        break
+# #        print('x')
+# #        x += 1
+
+# # i = 10
+# # while i < 6:
+# #     i += 1
+# #     if (i == '3'):
+# #          continue
+# #         print('i')
+   
+
+# # i = 10
+# # while i < 8:
+# #     i += 1
+# #     if (i == '3'):
+# #         break
+# #         print('i')
+
+# # i = 0
+# # for i in range (100):
+# #    print(i)
+# #    if i >5:
+# #        break
+# #     else:
+# #         print('hello')
+
+# #     print('come herer')
+
+# # cars = ['BMW', 'Camry', 'Benz', '4runner']
+# # cars.sort()
+# # for item in cars:
+# #     print(item)
+
+
+# # x = 50
+
+# # while x < 5:
+# #     print(f'The current of x is {x}')
+# #     x = x + 1
+
+# # else:
+# #     print("X IS NOT LESS THAN 5")
+
+
+# # X = [1,2,3]
+
+# # for item in x:
+# #     # comment
+# #     pass
+
+# # print('end of my script')
+
+# # mystring = 'sammy'
+
+# # for letter in mystring:
+# #     if letter == 'a':
+# #         continue
+# #     print(letter)
+
+
+# # g = 0
+
+# # while g < 5:
+    
+# #     if g == 2:
+# #      continue
+# #     print(g)
+# #     g += 1
+
+
+# # useful operators in py
+
+# # mylist = [1,2,3]
+# # for num in range(0,20,2):
+# #     print(num)
+
+
+# # print(list(range(0,11,2)))
+
+
+
+# # index_count = 0
+
+# # for letter in 'abcde':
+# #     print('At index {} the letter is {}'.format(index_count,letter))
+# #     index_count += 1
+
+
+
+
+# # index_count = 0
+# # word = 'abcde'
+# # for letter in word:
+# #     print(word[index_count])
+# #     index_count +=1
+
+
+
+# # word = 'abcde'
+
+# # for item in enumerate(word):
+# #     print(item)
+
+
+
+# # word = 'abcdefiklmnopq'
+
+# # for index,letter in enumerate(word):
+# #     print(index)
+# #     print(letter)
+# #     print('\n')
+
+
+
+# mylist1 = [1,2,3]
+# mylist2 = ['a','b','c']
+# mylist3 = [100,200,300]
+
+# for item in zip(mylist1,mylist2,mylist3):
+#   print(item)
+    
+ # print(list(zip(mylist1,mylist2)))
+
+# # print('x' in [1,2,3])
+# # print('mykey' in {'mykey' :345})
+
+# # mylist = [10,20,30,40,100]
+# # print(min(mylist))
+# # print(max(mylist))
+
+# # from random import shuffle
+
+# # mylistt = [1,2,3,4,5,6,7,8,9,10]
+# # random_list = shuffle(mylistt)
+# # print(shuffle(mylistt))
+# # print(mylistt)
+
+# # from random import randint
+# # print(randint(0,200))
+# # mynum = randint(0,10)
+# # print(mynum)
+
+# # result = input('Enter your name: ')
+# # print(result)
+# # print(type(result))
+
+
+# #  list comprehension
+
+# mystring = 'hello'
+# mylist = []
+
+# # for letter in mystring:
+# #     mylist.append(letter)
+# #     print(mylist)
+
+ 
+
+# mylist = [letter for letter in mystring]
+# print(mylist)
+# # element for element followed by an editable object
+
+# mylist = [x for x in 'word']
+# print(mylist)
+
+# mylist = [num for num in range(0,10)]
+# print(mylist)
+
+
+# mylist = [num**2 for num in range(0,10)]
+# print(mylist)
+
+
+# mylist = [x for x in range(0,11) if x%2==0]
+# print(mylist)
+
+
+# mylist = [x**2 for x in range(0,11) if x%2==0]
+# print(mylist)
+
+
+# # temperture conversion
+
+# celcius = [0,10,20,34.5]
+
+# fahrenheit = [( (9/5)*temp + 32) for temp in celcius]
+# print(fahrenheit)
+
+# fahrenheit = []
+
+# for temp in celcius:
+#     fahrenheit.append(( (9/5)*temp + 32))
+#     print(fahrenheit)
+
+#     # do not use this
+
+# results = [x if x%2==0 else 'ODD' for x in range(0,11)]
+# print(results)
+
+# # be kind to your future self
+
+# # mylist = []
+
+# # for x in [2,4,6]:
+# #     for y in [1,10,300]:
+# #         mylist.append(x*y)
+# #         print(mylist)
+
+
+
+# mylist = [x*y for x in [2,4,6] for y in [1,10,1000]]
+# print(mylist)
+
+
+# # python statements test
+
+# # # use for, split(), and if to create a statement that will print out words that start with s
+# # use range() to print all even numbers from 0 to 10
+# # use the list comprehesion to create a list of all numbers between 1 and 50 that are divisibe by 3
+# # go through the string below and if the length of a word is even print even
+# #         st = 'print evry word in this sentence that has an even number of letters'
+#         
+
+# results = [x if x%2==0 else 'ODD' for x in range(0,11)]
+# print(results)
+
+
+
+# result = 'x'
+
+# if x%2 == 0:
+#     print(result)
+
+# w = 15/3
+# print(w)
+
+
+
+# import re
+
+# txt = "The rain in spain from the start"
+# x = re.search("s", txt)
+# print(x)
+
+
+# exercise solutions keep your head up
+
+
+# for assessment test for , split and if statements to pick out words which begins with certain characters
+
+# gen = 'print only the words that start with s in the sentence'
+
+# for word in gen.split():
+#     print(word)
+
+
+
+# gen = 'print only the words that start with s in the sentence'
+
+# for word in gen.split():
+#     if word[0] == 's':
+#        print(word)
+
+
+# # to capture both lower and uppercase letteer in the sentence, use this
+
+
+# gen = 'print print Something uppercase S only the words that start with s in the sentence'
+
+# for word in gen.split():
+#     if word[0].lower() == 'p':
+#        print(word)
+
+
+# # printing out even number from 0 to 10 using range
+
+# print(list(range(0,11,2)))
+
+
+# #  or
+
+
+# list = [1,2,3,4,5,6,]
+
+# for num in range(0,11,2):
+#     print(num)
+
+
+
+
+# # using list comprehension to create a list of all numbers bete=ween 1 and 50 that are divisible by 3
+
+# print([x for x in range(1,51) if x%3==0])
+      
+
+
+
+#       # printing out the length of words in even number to print even instead of the numbers
+
+# st = 'print every word in this sentence that has an even numbers of letters'
+
+# for word in st.split():
+#     if len(word) % 2 == 0:
+#         print(word+ ' is even')
+
+
+
+# # fizzbuzz
+
+# for num in range(1,101):
+#     if num%3 == 0 and num%5 == 0:
+#         print('FizzBuzz')
+#     elif num%3 == 0:
+#         print('Fizz')
+#     elif num%5 == 0:
+#         print('Buzz')
+#     else:
+#         print(num)
+
+
+
+
+
+# gen = 'print print Something uppercase S only the words that start with s in the sentence'
+# input = 'p'
+# # input.lower()
+
+# for word in gen.split():
+#     if word[0] == input.lower():
+#        print(word)
+# # # using comprehension to create a list of every letter of the string below
+
+
+# st = 'Create a list of the first letters of every word in this string'
+
+# print([word[0] for word in st.split()])
+
+
+
+
+
+
+# methods and py documentation
+
+# mylist = [1,2,3]
+
+# mylist.append(4)
+# print(mylist)
+
+# mylist.pop()
+# print(mylist)
+
+
+# help(mylist.insert)
+
+# # introduction to functions
+
+# #  what is the difference between print and return?
+
+# def add_function(num1,num2):
+#     return num1+num2
+
+# result = add_function(1,2)
+
+# print(result)
+
+
+
+# basic functions in python
+
+# def say_hello():
+#     print("hello")
+#     print('are')
+#     print('you')
+
+# print(say_hello())
+
+# def say_hello(name):
+#     print(f'Hello {name}')
+
+
+#     print(say_hello())
+    
+
+
+# def add_num(num1,num2):
+#     return num1+num2
+
+
+# result = add_num(10,20)
+# print(result)
+
+# def say_hello(name='Default'):
+#     print(f'Hello {name}')
+  
+# print(say_hello())
+# my first test
+# def myfunc():
+#     print(f'Hello world')
+  
+# print(myfunc())
+
+
+
+# def add_num(num1,num2):
+#     return num1+num2
+
+# result = add_num(10,20)
+# print(result)
+
+
+# def print_result(a,b):
+#     return a+b
+
+# print(print_result(10,20))
+
+
+# def print_result(a,b):
+#     print a+b
+# type(result)
+
+
+# def myown(a,b):
+#     print(a+b)
+#     return a+b
+
+# result = myown(10,20)
+# print(result)
+
+# def sum_numbers(num1,num2):
+#     return num1+num2
+
+# print(sum_numbers(10,20))
+
+# adding logic to internal function operations
+# print(2 % 2)
+# print(3 % 2)
+# print(41 % 40)
+# print(20 % 2)
+# print(20 % 2 == 0)
+
+# def first_check(number):
+#     result = number % 2 == 0
+#     return result
+# print(first_check(35))
+
+# # checking inside a list(going to return true if any number is even inside a list)
+
+# def check_even_list(num_list):
+
+#     for number in num_list:
+#         if number % 2 == 0:
+#             return True
+#         else:
+#             pass
+
+#     return False
+
+# print(check_even_list([1,3,5]))
+# print(check_even_list([2,4,5]))
+# print(check_even_list([2,4,6,8]))
+
+
+
+# def check_even_list(num_list):
+# #  return all the even number in a list
+
+#     # placeholder variables
+#     even_numbers = []
+
+#     for number in num_list:
+#         if number % 2 == 0:
+#            even_numbers.append(number)
+
+#         else:
+#             pass
+
+#     return even_numbers
+
+
+# print(check_even_list([2,4,5,8]))
+
+
+# # functions and turple unpacking
+# stock_price = [('APPL',200),('GOOG',400),('MSFT',100)]
+
+# for item in stock_price:
+#     print(item)
+
+# for ticker,price in stock_price:
+#     print(ticker)
+
+# for ticker,price in stock_price:
+#     print(price+(0.1*price))
+
+
+# work_hours = [('Mr John',5000),('Abby',100),('Billy',400),('cassie',800)]
+
+# def employee_check(work_hours):
+
+#     current_max =0
+#     employee_of_month = ''
+     
+#     for employee,hours in work_hours:
+#         if hours > current_max:
+#             current_max = hours
+#             employee_of_month = employee
+#         else:
+#             pass
+
+
+#     # Return
+#     return (employee_of_month,current_max)
+# print(employee_check(work_hours))
+
+# name,hours = employee_check(work_hours)
+# print(name)
+# print(hours)
+
+
+
+#  interactions between functions
+
+# example = [1,2,3,4,5,6,7]
+
+# from random import shuffle
+
+# shuffle(example)
+# print(example)
+
+# def shuffle_list(mylist):
+#     shuffle(mylist)
+#     return mylist
+
+# result = shuffle_list(example)
+# print(result)
+
+# # game list
+
+# mylist = [' ','O',' ']
+# print(shuffle_list(mylist))
+
+
+# def player_guess():
+
+#     guess=''
+    
+#     while guess not in ['0','1','2']:
+#         guess = input("Pick a number: 0,1, or 2")
+
+#     return int(guess)
+
+
+# print(player_guess())
+
+
+# def check_guess(mylist,guess):
+#     if mylist[guess] == 'O':
+#         print("correct!")
+#     else:
+#         print("wrong guess!")
+#         print(mylist)
+
+# #  inital list 
+# mylist = [' ','O',' ']
+
+# # shuffle list
+# mixedup_list = shuffle_list(mylist)
+
+# # user guess
+# guess = player_guess()
+
+# # check guess
+# print(check_guess(mixedup_list,guess))
+
+
+# def myfunc():
+
+#     myfunc = 'Hello World'
+
+# print(myfun)
+
+
+# def myfunc():
+#     print(myfunc('Hello World'))
+
+
+
+# def myfunc():
+    
+#     print('Hello World')
+
+
+# def myfunc(name):
+#     print('Hello {}'.format(name))
+
+# def myfunc(a):
+#     if a == True:
+#         return 'Hello'
+#     elif a == False:
+#         return 'Goodbye'
+
+
+# def myfunc(x,y,z):
+#     if z == True:
+#         return x
+#     else:
+#         return y
+
+
+
+# def myfunc(a,b):
+#     print(a+b)
+
+#     # return a+b
+
+
+
+# def is_even(n):
+#     if n%3 == 0:
+#         return True
+#     else:
+#         return False
+
+#     print(is_even())
+
+
+
+# def is_greater(c,d):
+#     if c > d:
+#         return True
+#     else:
+#         return False
+#     print(is_greater())
+
+
+
+# def myfunc(a,b,c=0,d=0,e=0):
+#     #  Returns 5% of the sum of a and b
+#     return sum((a,b,c,d,e)) * 0.05
+# # print(myfunc(40,60,100,100,3,4))
+
+# def myfunc(*args):
+#     return sum(args) * 0.05
+#     print(args)
+#     for item in args:
+#         print(item)
+# print(myfunc(40,50,60,20,10,20,4005,50))
+
+
+# def myfunc(**kwargs):
+#     if 'fruit' in kwargs:
+#         print('My fruit of choice is {}'.format(kwargs['fruit']))
+#     else:
+#         print('I did not find any fruit here')
+
+# print(myfunc(fruit='apple',veggie = 'lettuce' ))
+
+
+# def myfunc(*args, **kwargs):
+#     print(args)
+#     print(kwargs)
+#     print('I would like {} {}'.format(args[0],kwargs['food']))
+# print(myfunc(10,20,30,fruit='orange',food='eggs',animal='dog'))
+
+
+
+
+
+# def myfunc(*args):
+#     return sum(args)
+
+
+# def myfunc(*args):
+#     out = []
+#     for num in args:
+#         if num%2==0:
+#             out.append(num)
+#     return out
+
+
+
+# def myfunc(x):
+#     out = []
+#     for i in range(len(x)):
+#         if i%2==0:
+#             out.append(x[i].lower())
+#         else:
+#             out.append(x[i].upper())
+#     return ''.join(out)
+
+# warmup problem solution
+
+#  first question ====== lesser of two even : write a function that returns the lesser of two given numbes if both numbers are even but returns the greater if one of both numbers are odd
+#  lesser_of_two_evens(2,4) -->2
+#  lesser_of_two_evens(2,5 ) -->5
+
+def lesser_of_two_evens(a,b):
+
+    if a%2 == 0 and b%2==0:
+        # Both numbers are even!
+        if a < b:
+            result  = a
+        else:
+            result = b
+    else:
+        #  one or both numbers are ODD!
+        if a > b:
+            result = max(a,b)
+            result = a
+        else:
+            result = b
+    return result
+    # check
+print(min(10,0.9))
+print(lesser_of_two_evens(2,4))
+print(lesser_of_two_evens(7,5))                        
+
+
+#  making the code up simple we use this method
+def lesser_of_two_evens(a,b):
+
+    if a%2 == 0 and b%2==0:
+        # both number are even!
+        return min(a,b)
+    else:
+        # One or both numbers are ODD!
+        return max(a,b)
+
+print(max(10,20))
+# check
+print(lesser_of_two_evens(2,4))
+print(lesser_of_two_evens(7,5))
