@@ -1,0 +1,258 @@
+# print('hello world')
+# message = """you are okay with it just just do it"""
+# print(len(message))
+#print(message[0:12])
+#print(message.upper())
+#print(message.count('t'))
+#greeting = 'welcome'
+#print(help(str.translate))
+#num = 3
+#print(3 // 2)
+#print(3 ** 2)
+#print(7 % 2)
+#print(abs(-99))
+#print(round(65.25, 1))
+#num_1 = '100'
+#print(6 % 2)
+#print(5 % 2)
+#print(4 % 2)
+#num_2 = '200'
+##num_1 = int(num_1)
+#num_2 = int(num_2)
+#print(num_2 - num_1)
+#print(num_2 + num_1)
+#print(round(3.75,1))
+#num_1 = 6
+#num_2 = 25
+#print(num_1 >= num_2)
+#print(len(coures))
+#coures.append('lite')
+#coures.remove('lite')
+#popped = coures.pop()
+#print(coures)
+#print(coures)
+#print(coures)
+# nums = [0,7,8,4,3,1,2,6,7,5,6,2,8,4,6]
+# nums.sort(reverse=True)
+# print(min(nums))
+# print(max(nums))
+# print(sum(nums))
+# empty_list = []
+# empty_list = list()
+# student = {'name': 'john', 'age': 25, 'courses': ['math', 'compsci']}
+# student['phone'] = '0816877641'
+# student['name'] = 'john'
+# for key in student.items():
+# 	print('key', 'value')
+# print(student.get('phone'))
+# num_2 = 3
+# num_1 = 2
+# num_3 = 1
+# print(num_1 <= num_2 >= num_3)
+# if 3>2:
+# 	print('ITS TRUE!')
+# hungry = True
+# if hungry:
+# 	print('FEED ME!')
+# else:
+# 	print("Im not hungry")
+
+
+# loc = 'B'
+
+# if loc == 'Auto Shop':
+# 	print("Cars are cool!")
+# elif loc == 'Bank':
+# 	print("money is cool!")
+# elif loc == 'Store':
+# 	print("Welcome to the store!")
+# else:
+# 	print("i do not know much.")
+
+# name = 'peter'
+# if name == 'jerry':
+# 	print("Hello jerry")
+# elif name == 'prince':
+#   print("Hello prince")
+# else:
+#   print("what is your name? please!")
+
+# mylist = [1,2,3,4,5,6,7,8,9,10]
+# for num in mylist:
+# 	print(num)
+# for jelly in mylist:
+# 	print(jelly)
+# 	for num in mylist:
+# 		print('hello')
+# for num in mylist:
+# 	#check for even
+# 	if num % 2 == 0:
+# 		print(num)
+# 	else:
+# 		print(f'Odd Nmber: {num}')
+
+
+
+# list_sum = 0
+
+# for num in mylist:
+# 			list_sum = list_sum + num
+
+# 			print(list_sum)
+# mystring = 'Hello world'
+# for letter in 'hello world':
+#     print(letter)
+
+# tub = (1,2,3)
+
+# for item in tub:
+# 	 print(item)
+
+
+# mylist = [(1,2),(3,4),(5,6),(7,8)]
+
+# print(len(mylist))
+
+# for item in mylist:
+# 	print(item)
+# for (a,b) in mylist:
+# 	print(a)
+# 	print(b)
+
+
+# for a,b in mylist:
+# 	print(a)
+
+# for a,b in mylist:
+# 	print(b)
+
+# my2list = [(1,2,3), (5,6,7),(8,9,10)]
+
+# for item in my2list:
+# 	print(item)
+# for a,b,c in my2list:
+# 	print(b)
+# d = {'k1':1, 'k2':2, 'k3':3}
+
+# for value in d.values():
+# 	print(value)
+
+# #while loops
+
+# x = 0
+
+# while x < 5:
+# 	print(f'The current value of x is {x}')
+# 	x += 1
+
+# else:
+# 	print("x is not less than 5")
+# 	pass
+
+# x = [1,2,3]
+
+# for item in x:
+# 	#comment
+# 	#pass keyword
+# 	pass
+# 	print('end of my script')
+
+# mystring = 'peter'
+
+# for letter in mystring:
+# 	if letter == 'a':
+# 		  break
+# 	print(letter)
+
+# x = 0
+
+# while x < 5:
+# 	if x == 2:
+# 		break
+# 	print(x)
+# 	x += 1
+# 	#pass
+
+#  #useful operators
+# #mylist = [1,2,3]
+
+# #for num in range(0,11,2):
+#  #   print(num)
+
+
+# #index_coount = 0
+# #word = 'abcde'
+# #for letter in 'abcde':
+# #	print('at index {} the letter is {}')
+
+# #for letter in word:
+# #	print(word[index_coount])
+# #	index_coount +=1
+
+# #for item in enumerate(word):
+# #	print(item)
+
+# #for index,letter in enumerate(word):
+# #	print(index)
+# #	print(word)
+
+#      #list generaator
+# #milist = [1,2,3,4,5,6]
+# #milist2 = ['a','b','c']
+
+# #for item in zip(milist,milist2):
+# #	print(item)
+
+
+# # numb = [1,2,3]
+# # numb1 = ['a','b','c']
+# # numbb = [100,200,300]
+
+# # zip(numb,numb1,numbb)
+# # for item in zip (numb,numb1,numbb):
+# # 	print(item)
+# # print(list(zip(numb,numbb)))
+
+# zip(numb,numb1)
+# for item in zip (numb,numb1):
+#  	print(item)
+# print('x' in [1,2,3])
+# print('a' in ['a week'])
+# print('mykey' in {'mykey':3425})
+# d = {'mykey':345}
+# print(345 in d.keys())
+# mylistt = [10,20,30,50,60,100]
+# print(min(mylistt))
+# print(max(mylistt))
+
+# import random
+# myList = ['1','2','3','4','5','6','7','8','9']
+# print(myList)
+# print(random.shuffle(["Apple", "Bannana"]))
+# myList = random.shuffle(myList)
+# print('random: ', myList)
+#random.shuffle([1,2,3,4,6,5,7,8,9,10])
+ #print(myliste)
+
+
+# mylist = [1,2,3,4,5,7,8,909090]
+# print(max(mylist))
+# from random import randint
+# print(randint(0,100))
+# print(randint(0,100))
+# print(randint(0,100))
+# mynum = randint(0,50)
+# print(mynum)
+# input('Enter a number here: ')
+# result = input('what is your name? ')
+import random
+from random import shuffle
+from typing import Counter
+
+
+data = ['uliaito', 'hello', 'justin']
+
+random.shuffle(data)
+print(Counter(data))
+for item in data:
+  print(item)
