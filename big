@@ -70,3 +70,21 @@ name = "Sam"
 age = 3
 
 print(f'{name} is {age} years old.')
+
+# my_list = [1,2,3,4]
+# my_list = ['STRING', 100,200]
+# print(my_list)
+another_list = ['four','five']
+my_list = ['one','two','three']
+print(my_list + another_list)
+
+print(my_list)
+print(another_list)
+new_list = my_list + another_list
+print(new_list)
+new_list[0] = 'WE ARE HEROS'
+print(new_list)
+# append allows us to add a new item
+new_list.append('six v')
+print(new_list)
+# pop allows us to remove an item from a list
