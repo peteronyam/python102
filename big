@@ -88,3 +88,88 @@ print(new_list)
 new_list.append('six v')
 print(new_list)
 # pop allows us to remove an item from a list
+print(new_list.pop())
+popped_item = new_list.pop()
+print(popped_item)
+new_list = ['a','b','y','g','z','t','c']
+num_list = [4,5,1,8]
+new_list.sort()
+print(new_list)
+num_list.sort()
+print(num_list)
+num_list.reverse()
+print(num_list)
+new_list.reverse()
+print(new_list)
+# Dictionaries 
+# key value pair
+my_dict = {'key1': 'value1','key2': 'value2'}
+print(my_dict)
+prices_lookup = {'apple':2.57,'oranges':7.70,'milk':56.6}
+print(prices_lookup['apple'])
+d = {'k':123, 'k2':[0,1,2],'k3':{'insidekey':100}}
+print(d['k2'][2])
+di = {'key1':['a','b','c']}
+print(di)
+my_list = di['key1']
+print(my_list)
+letter = my_list[2]
+print(letter.upper())
+print(my_list['key1'][2].upper())
+
+# set are unorered collection of unique numbers
+myset = set()
+print(myset)
+
+
+# changing from list to turple and from turple to list
+d = {'k1':100,'k2':200}
+# adding a new item to the list above
+d['k3'] = 300
+print(d)
+# to override an existing key value
+d['k1'] = 'base ball'
+print(d)
+# to key the keys or headers of a dictionary
+print(d.keys())
+# to see the values attached to each key of a dictionary
+print(d.values())
+# to return both keys and values of a dictionary
+print(d.items())
+# turple a very similar to list but unimmutable
+# for turple
+t = (1,2,3)
+# for list [square braces]
+mylist = [1,2,3]
+print(type(mylist))
+print(type(t))
+#  basic inbuilt methods for turples are the count method and the index method
+t = ('a','a','b')
+print(t.count('a'))
+print(t.index('b'))
+# turple immutability
+print(mylist)
+mylist[0] = 'NEW'
+print(mylist)
+#  turple is helpful when we are talking about DATA INTEGRITY
+         # SETS are unordered collection of unique elements
+myset = set()
+print(myset)
+myset.add(10)
+print(myset)
+myset.add(9)
+print(myset)
+myset.add(7)
+print(myset)
+mylist = [1,1,1,1,1,1,1,1,1,1,1,1,1,2,4,5,7,1]
+print(set(mylist))
+# booleans in python
+print(True)
+print(type(True))
+print(False)
+print(type(False))
+print(1 > 2)
+print(1 == 1)
+# using the none keyword as a place holder
+b = None
+print(b)
