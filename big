@@ -173,3 +173,20 @@ print(1 == 1)
 # using the none keyword as a place holder
 b = None
 print(b)
+#  simple input and output with basic files in python
+# %%writefile myfile.tax
+# Hello this is a text file 
+# this is the second line
+# this is the third line
+myfile = open('myfile.txt')
+print(myfile.read())
+print(myfile.seek(0))
+print(myfile.read())
+print(myfile.seek(0))
+# newfile = open("C:\\Users\\$BILLIE\\Documents\\New folder\\JOY\\BUDGET.DOCX")
+# # print(myfile.readlines())
+# print(newfile.read())
+print(myfile.close())
+# With open('myfile.txt') as my_new_file:
+#      contents = my_new_file.read()
+# print(contents)
