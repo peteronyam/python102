@@ -190,3 +190,594 @@ print(myfile.close())
 # With open('myfile.txt') as my_new_file:
 #      contents = my_new_file.read()
 # print(contents)
+print(myfile.close())
+
+# object and 
+with open('myfile.txt') as my_new_file:
+	contents = my_new_file.read()
+print(contents)
+
+with open('myfile.txt') as myfile:
+	contents = myfile.read()
+print(contents)
+
+with open('myfile.txt',mode='a') as f:
+	print(f.write('\nWELCOME BACK'))
+
+with open('html.txt',mode='w') as f:
+	f.write('we did did it')
+import datetime
+datetime.datetime.now()
+datetime.datetime(2009, 1, 6, 15, 8, 24, 78915)
+
+print(datetime.datetime.now())
+
+with open('html.txt',mode='r') as f:
+	print(f.read())
+
+# # object and data structures
+print(4 * (6 + 5))
+print(4 * 6 + 5)
+print(4 + 6 * 5)
+bu = 3 + 1.5 + 4
+print(type(bu))
+
+short = 'hello'
+print(type(short))
+print(short[1])
+# converting a string to a list in other to reverse and manipulate it
+now = list(short)
+print(type(now))
+print(now)
+now.reverse()
+print(now)
+# method 1
+print(short[-1])
+print(len(short))
+print(short[4])
+# building a list [0,0,0]
+# method 1
+mylist = [0,0,0]
+mylist_1 = (0,0,0)
+print(mylist,mylist_1)
+print(type(mylist))
+print(type(mylist_1))
+list3 = [1,2,[3,4,'hello']]
+print(list3)
+# more knowledge required here
+list3[:3][2]= 'goodbye'
+# up
+list3.reverse() 
+list3.pop()
+# list3.append()
+print(list3)
+print(type(list3))
+# two methods to sort a list
+list4 = [5,3,4,6,1]
+# first method
+list4.sort()
+# second method
+print(sorted(list4))
+print(list4)
+# grabing hello
+d = {'simple_key':'hello'}
+print(d['simple_key'])
+# grabing the hello inside it
+d = {'k1':{'k2':'hello'}}
+print(d['k1']['k2'])
+# more knowledge needed here too
+# indexing and key calling 
+d = {'k1':[{'nest_key':['this is deep',['hello']]}]}
+# print(d['k1'][])
+# booleans exercise
+rew = [1,2,[3,4]]
+cue = [1,2,{'k1':4}]
+king = rew[2][0] >= cue[2]['k1']
+print(king)
+
+print(4**0.5 != 2)
+print(3.0 == 3)
+
+
+# solutions to the previous obect and data struture
+
+print('strings are ordered sequence of characters'.upper())
+print('list are ordered sequence of objects (mutable)'.upper())
+print('tuples are ordered sequence of objects (immutable)'.upper())
+print('dictionaries are key-value pairing that is unordered'.upper())
+
+he = (60 + (10 **2) / 4 * 7) - 134.75
+print(he)
+
+print(4 *(6 + 5))
+
+# sqaure root: finding the square root of a number
+print(100 ** 0.5)
+#  finding the sqaure of a number
+print(10 ** 2)
+
+# sreings
+s = 'hello'
+print(s[1])
+
+print(s[-1])
+print(s[4])
+
+# list: building a list in two different ways
+
+list2 = [0,0,0]
+print(list2)
+print([0]*3)
+
+# reassigning hello in this nested list to say goodbye
+
+# hi = [1,2[3,4,'hello']]
+# hi[2][2] = 'goodbye'
+# print(hi)
+# # more work here again
+
+
+# using keys and indexing to grab the hello from the foolowing dictionaries
+# dictionaries
+d = {'simple_key':'hello'}
+print(d['simple_key'])
+
+# second face of grabbing keys using keys and indexing (a little)
+d = {'k1':{'k2':'hello'}}
+print(d['k1']['k2'])
+
+# another but little bit hard
+d = {'k1':[{'nest_key':['this is deep',['hello']]}]}
+print(d['k1'][0]['nest_key'][1][0])
+
+#  last and very tough one
+d = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
+
+print(d['k1'][2]['k2'][1]['tough'][2][0])
+
+#  can you sort a dictionary? why aor why not?
+# answer: No Because normal dictionaries are mapping and a sequence
+
+# what is the difference betwen Tuples and List?
+
+print('tuples are immutable'.upper())
+
+# what is unique about a set?
+print("Sets don't allow dupplicate items".upper())
+
+# python comparison operators
+print(2 == 2)
+print(2 == 1)
+print('bye' == 'bye')
+print('2' == 2)
+print(3 != 3)
+print(4 != 5)
+print(2 > 1)
+print(1 > 2)
+print(1 < 2)
+print(2 < 5)
+print(1 != 1)
+
+# Logic operators
+# chaining operators
+#  using tohe not keyword, the or keyword and the and keyword
+# or = needs one or the other to be true
+# and keyword needs both condition to be true or both condition to be false
+print(1 < 2)
+print(2 < 3)
+
+print(1 < 2 < 3)
+print(1 < 2 and 2 <3)
+print('h' == 'h' and 2 == 2)
+print(1 == 1 or 2 == 2)
+print(100 == 1 or 2 == 200)
+print(1 < 2 and 3 < 2)
+print(not 1 == 1)
+print(not 400 > 5000)
+
+# #  victoria PC 
+# 1Tb Acaer 4820tg =20k
+# 4ram/8gb = 4/12k
+# windows 11/10 = 7/8k-5/6k
+# battery acaer 4820tg = ?k
+# for now
+# date (today) 
+# phone = 080********477
+
+
+ # python statements
+ # if
+ # elif
+ # else
+if True:
+ 	print('its true!')
+
+hungry = False
+
+if hungry:
+ 	print('feed me!')
+else:
+ 	print('i am not hungry')
+
+loc = 'Auto'
+
+if loc == 'Auto shop':
+	print('cars are cool!')
+elif loc == 'Bank':
+	print('welcome to the Bank')
+else:
+	print('maybe you should try the next code')
+
+name = 'j'
+
+if name == 'james':
+	print('welcome j')
+elif name == 'sammy':
+	print('hello sams')
+else:
+	print('profile not found \nplease provide your details below ')
+
+# for loops
+# iterable means you can iterare over the obect
+mylist = [1,2,3,4,5,6,7,8,9,10]
+for num in mylist:
+	print(num)
+
+for keli in mylist:
+	print('j')
+
+for num in mylist:
+	# check even number
+	if num % 2 == 1:
+		print(num)
+	else:
+		print(f'even number: {num}')
+
+list_sum = 0
+
+for num in mylist:
+	list_sum = list_sum + num
+     
+print(list_sum)
+
+mystring = 'hello world'
+ 
+for letter in mystring:
+	print('we move')
+
+tup = (1,2,3)
+
+for item in tup:
+	print(item)
+
+mylist = [(1,2),(3,4),(5,6),(7,8)]
+print(len(tup))
+print(len(mylist))
+for item in mylist:
+	print(item)
+	# tuple and packing
+for (a,b) in mylist:
+	print()
+	print(b)
+mylist = [(1,2,3),(5,6,7),(8,9,10)]
+
+for item in mylist:
+	print(item)
+
+for a,b,c in mylist:
+	# printin all the numbers at the end of the tuples
+	print(c)
+	# printing the numbers at the beginging of the tuple
+	print(a)
+	# printing all the numbers at the middle of all the tuples
+	print(b)
+
+	# creating a dictionary
+	d = {'k1':1, 'k2':2,'k3':3}
+
+for key,value in d.items():
+	# printing only the keys
+		print(key)
+		# printing only the values
+		print(value)
+# if you want only the values here,code
+for value in d.values():
+	print(value)
+# if you want only the keys,code
+for key in d.keys():
+	print(key)
+# while loops 
+x = 0
+
+while x < 5:
+	print(f'The current value of x is {x}')
+	# x = x + 1
+	# writing in a compact way
+	x += 1
+else:
+	print('X is not true')
+	# break = breaks out of the current closet enclosing loop
+	# continue= goes to the top of the closet enclosing loop
+	# pass = does nothing at all
+	# for pass
+	x = [1,2,3]
+
+	for item in x:
+		# comment
+		pass
+	print('end of my script'.upper())
+# for continue
+mystring = 'sammy'
+
+for letter in mystring:
+	if letter == 'a':
+		continue
+	print(letter)
+
+# for break
+for letter in mystring:
+	if letter == 'a':
+		break
+	print(letter)
+
+x = 0
+
+while x < 2:
+	print(x)
+	x += 1
+# useful operators
+
+# range function
+mylist = [1,2,3,4,5]
+
+for num in range(0,6,2):
+    print(num)
+
+print(list(range(0,11,2)))
+
+# enumerate
+index_count = 0
+
+for letter in 'abcde':
+	print('At index {} the letter is {}'.format(index_count,letter))
+	index_count += 1
+
+word = 'abcde'
+
+for index,letter in enumerate(word):
+
+	print(index)
+	print(letter)
+	print('\n')
+
+
+# zip function
+#  the zip funtion only make use of the list with the shortest items and does ingnor all extra items in the list
+mylist1 = [1,2,3,4,5,6]
+mylist2 = ['a','b','c']
+mylist3 = [100,200,300]
+for item in zip(mylist1,mylist2,mylist3):
+    print(item)
+print(list(zip(mylist1,mylist2,mylist3)))
+
+
+# to unpack the above
+for a,b,c in zip(mylist1,mylist2,mylist3):
+ 	print(a)
+print('x' in [1,2,3])
+print('x' in ['x','y','z'])
+print('a' in 'a word')
+print('mykey' in {'mykey':345})
+d = {'mykey':345}
+
+print(345 in d.keys())
+print(345 in d.values())
+
+mylist = [10,20,30,40,50,12034]
+print(min(mylist))
+print(max(mylist))
+
+from random import shuffle
+mylist = [1,2,3,4,5,6,7,8,9,10]
+shuffle(mylist)
+print(mylist)
+
+from random import randint
+print(randint(0,100))
+mynum = randint(0,10)
+print(mynum)
+# input function 
+# etting user input
+# input always accept input as a string "note"
+print(input('what is your name? '))
+result = input('what is your name? ')
+print(result)
+# result = input('what is your name? ')
+# print(result)
+      # list comprehesion = these are unique way in python quickly
+
+# mystring = 'hello'
+# mylist = []
+
+# for letter in mystring:
+#     mylist.append(letter)
+# print(mylist)
+# # short form of the above
+# mylist = [letter for letter in mystring]
+# print(mylist)
+
+# mylist = [num**2 for num in range(0,11)]
+# print(mylist)
+
+# mylist = [x for x in range(0,11) if x%2==1]
+# print(mylist)
+
+# # temperature convertion
+# celcius = [0,10,20,34.5]
+
+# fahrenheit = [( (9/5)*temp +32)for temp in celcius]
+# print(fahrenheit)
+
+# farenheit = []
+
+# for temp in celcius:
+# 	farenheit.append(( (9/5)*temp + 32))
+# print(farenheit)
+
+# # using if and else inside the list comprehension
+# results = [x if x%2==0 else 'ODD' for x in range(0,11)]
+# print(results)
+# # Nested loops
+# mylist = []
+# for x in [2,4,6]:
+# 	for y in [100,200,300]:
+# 		mylist.append(x*y)
+# print(mylist)
+# # very hard to read after a while
+# mylist = [x*y for x in [2,4,6] for y in [1,10,100]]
+# print(mylist)
+
+# # statement accessment test
+
+#  # python statements test
+
+# # # use for, split(), and if to create a statement that will print out words that start with s
+# # use range() to print all even numbers from 0 to 10
+# # use the list comprehesion to create a list of all numbers between 1 and 50 that are divisibe by 3
+# # go through the string below and if the length of a word is even print even
+# #         st = 'print evry word in this sentence that has an even number of letters'
+        
+
+# # results = [x if x%2==0 else 'ODD' for x in range(0,11)]
+# # print(results)
+
+
+
+# # result = 'x'
+
+# # if x%2 == 0:
+# #     print(result)
+
+# # w = 15/3
+# # print(w)
+
+
+
+# import re
+
+# txt = "The rain in spain from the start"
+# x = re.search("s", txt)
+# print(x)
+
+
+# # exercise solutions keep your head up
+
+
+# # for assessment test for , split and if statements to pick out words which begins with certain characters
+
+# # gen = 'print only the words that start with s in the sentence'
+
+# # for word in gen.split():
+# #     print(word)
+
+
+
+# gen = 'print Sammy only the words that start with s in the sentence'
+
+# for word in gen.split():
+#     if word[0] == 's':
+#        print(word)
+# for word in gen.split():
+# 	if word [0] == 't':
+# 		print(word)
+# #  to get both upper and lower case word in a sentence 
+# # here is less code and looks very clean and appealing to the reader
+# for word in gen.split():
+#     if word[0].lower() == 's':
+#     	print(word)
+#     	# worked
+# for word in gen.split():
+# 	if word[0] == 's' or word[0]=='S':
+# 		print(word)
+# #using the range function to print numbers	 
+# print(list(range(0,11,2)))
+# # range function
+# print(x for x in range(1,51) if x%3 == 0)
+# st = 'print every word in this sentence that has an even numbers of letters'
+# for word in st.split():
+# 	if len(word) % 2 == 0:
+# 		print(word+ ' is even!')
+# # to capture both lower and uppercase letteer in the sentence, use this
+
+
+# gen = 'print print Something uppercase S only the words that start with s in the sentence'
+
+# for word in gen.split():
+#     if word[0].lower() == 'p':
+#        print(word)
+
+
+# # printing out even number from 0 to 10 using range
+
+# print(list(range(0,11,2)))
+
+
+# #  or
+
+
+# list = [1,2,3,4,5,6,]
+
+# for num in range(0,11,2):
+#     print(num)
+
+
+
+
+# # using list comprehension to create a list of all numbers bete=ween 1 and 50 that are divisible by 3
+
+# print([x for x in range(1,51) if x%3==0])
+      
+
+
+
+#       # printing out the length of words in even number to print even instead of the numbers
+
+# st = 'print every word in this sentence that has an even numbers of letters'
+
+# for word in st.split():
+#     if len(word) % 2 == 0:
+#         print(word+ ' is even')
+
+
+
+# # fizzbuzz 
+# # fizzbuzz
+# # fizzbuzz
+
+# for num in range(1,101):
+#     if num%3 == 0 and num%5 == 0:
+#         print('FizzBuzz')
+#     elif num%3 == 0:
+#         print('Fizz')
+#     elif num%5 == 0:
+#         print('Buzz')
+#     else:
+#         print(num)
+
+
+
+
+
+# gen = 'print print Something uppercase S only the words that start with s in the sentence'
+# input = 'p'
+# # input.lower()
+
+# for word in gen.split():
+#     if word[0] == input.lower():
+#        print(word)
+# # # using comprehension to create a list of every letter of the string below
+
+
+# st = 'Create a list of the first letters of every word in this string'
+
+# print([word[0] for word in st.split()])
